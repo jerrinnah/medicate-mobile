@@ -28,7 +28,7 @@ const Login = ({setScreen}) => {
 
 
             </View>
-            <Pressable style={styles.btnLogin} onPress={() => setScreen(3)} >
+            <Pressable style={styles.btnLogin} onPress={() => setScreen(5)} >
                 <Text style={[styles.btnText, styles.white]}> LOG IN</Text>
             </Pressable>
 
