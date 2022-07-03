@@ -9,11 +9,11 @@ const course = ({info}) => {
   return (
     <View style={styles.card}>
 
-      {/* <Image style={styles.imgSize} source={image} /> */}
+     
       <ImageBackground style={styles.newBg} source={image} resizeMode="contain">
        <Text  style={[styles.textCourse, styles.grey]}>{title}</Text>
       </ImageBackground>
-      {/* <Text style={styles.textCourse}>{title}</Text> */}
+     
     </View>
   )
 }
@@ -45,9 +45,9 @@ const styles = StyleSheet.create({
     position:'absolute',
     bottom:19,
     fontWeight:'bold',
-    // left:40,
     width:130,
-    textAlign:'center'
+    textAlign:'center',
+    paddingBottom:5,
 
   
     
